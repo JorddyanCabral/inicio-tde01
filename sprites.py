@@ -10,8 +10,8 @@ class Crosshair(pygame.sprite.Sprite):
             "res/crosshair_white_large.png")
         self.rect = self.image.get_rect()
 
-        self.fire = pygame.mixer.Sound('')
-        self.reload_sound = pygame.mixer.Sound('')
+        # self.fire = pygame.mixer.Sound('')
+        # self.reload_sound = pygame.mixer.Sound('')
 
     def update(self):
         self.rect.center = pygame.mouse.get_pos()
